@@ -27,9 +27,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <section className={utilStyle.headingMd}>
-        <p>
-          私はフロントエンドエンジニアです。React/Next.js/TypeScriptを学んでいます。
-        </p>
+        <p>私はReactエンジニアです。好きなフレームワークはReactです。</p>
       </section>
       <section className={`${utilStyle.headingMd} ${utilStyle.padding1px}`}>
         <h2>📝エンジニアのブログ</h2>
